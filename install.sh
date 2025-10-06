@@ -58,6 +58,7 @@ echo ""
 # Modify the URL to include the token
 auth_url="https://${token}@github.com/johnakashx/spark-hive-template-accesskey.git"
 
+git clone "${auth_url}"
 
 chmod +x spark-hive-template-accesskey/startup.sh
 
